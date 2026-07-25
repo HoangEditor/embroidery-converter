@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: embroidery-converter
+    env: docker
+    repo: https://github.com/HoangEditor/embroidery-converter
+    plan: free
+    region: singapore
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
