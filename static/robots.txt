@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://embroidery-converter.fly.dev/sitemap.xml

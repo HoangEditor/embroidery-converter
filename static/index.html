@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ═══════════ SEO META ═══════════ -->
+<title>Free Embroidery File Converter — Convert DST, PES, JEF & More Online</title>
+<meta name="description" content="Convert embroidery files between all major formats. Upload DST, PES, JEF, EXP, PEC, VP3, XXX, U01, TBF and 40+ more. Free, no signup. Files auto-deleted after 10 minutes.">
+<meta name="keywords" content="embroidery file converter, convert embroidery files, DST converter, PES converter, JEF converter, embroidery format converter, free embroidery converter, online embroidery converter, convert DST to PES, embroidery file to multiple formats, chuyển đổi file thêu, convert file thêu online">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="VN">
+<meta name="geo.placename" content="Vietnam">
+<meta name="geo.country" content="VN">
+<meta name="author" content="EmbroideryConvert">
+<link rel="canonical" href="https://embroidery-converter.fly.dev/">
+<link rel="alternate" hreflang="en" href="https://embroidery-converter.fly.dev/">
+<link rel="alternate" hreflang="vi" href="https://embroidery-converter.fly.dev/vi/">
+<link rel="alternate" hreflang="x-default" href="https://embroidery-converter.fly.dev/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Free Embroidery File Converter — All Formats, No Signup">
+<meta property="og:description" content="Upload one file, get all major embroidery formats in a ZIP. DST, PES, JEF, EXP, PEC, VP3 and more. Free, fast, private.">
+<meta property="og:url" content="https://embroidery-converter.fly.dev/">
+<meta property="og:site_name" content="EmbroideryConvert">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free Embroidery File Converter — All Formats">
+<meta name="twitter:description" content="Upload one embroidery file, get all major formats. Free, no signup. Auto-delete after 10 min.">
+
+<!-- Fonts: Inter (Notion-inspired) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Schema.org Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "EmbroideryConvert",
+  "description": "Free online embroidery file converter. Convert between DST, PES, JEF, EXP, PEC, VP3 and 40+ formats.",
+  "applicationCategory": "Multimedia",
+  "operatingSystem": "Any",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Organization", "name": "EmbroideryConvert" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What embroidery formats can I convert?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can upload 47+ embroidery formats including DST, PES, JEF, EXP, PEC, VP3, XXX, U01, TBF, HUS, SEW and many more. Output is available for 19 formats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, completely free. No signup, no hidden fees. Files are automatically deleted after 10 minutes for your privacy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What machines use these formats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DST is used by Tajima/Brother machines. PES by Brother/Janome. JEF by Janome. EXP by Melco. VP3 by Pfaff/Husqvarna. We support all major brands."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  /* ═══════════════════════════════════════════
+     EMBROIDERY CONVERTER — Notion-inspired Light Theme
+     Clean, warm, professional. No AI slop.
+     ═══════════════════════════════════════════ */
+
+  :root {
+    --white: #ffffff;
+    --warm-white: #f6f5f4;
+    --near-black: rgba(0,0,0,0.95);
+    --text-secondary: #615d59;
+    --text-muted: #a39e98;
+    --border: rgba(0,0,0,0.1);
+    --blue: #0075de;
+    --blue-hover: #005bab;
+    --blue-light: #f2f9ff;
+    --green: #1aae39;
+    --red: #dd3434;
+    --gold: #b8860b;
+    --gold-light: #fef9e7;
+    --radius-card: 12px;
+    --radius-btn: 6px;
+    --shadow-card: rgba(0,0,0,0.04) 0px 4px 18px, rgba(0,0,0,0.027) 0px 2px 8px, rgba(0,0,0,0.02) 0px 0.8px 3px;
+    --shadow-deep: rgba(0,0,0,0.01) 0px 1px 3px, rgba(0,0,0,0.02) 0px 3px 7px, rgba(0,0,0,0.02) 0px 7px 15px, rgba(0,0,0,0.04) 0px 14px 28px;
+    --max-w: 780px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background: var(--white);
+    color: var(--near-black);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Layout ──────────────────────────────── */
+  .page { max-width: var(--max-w); margin: 0 auto; padding: 40px 20px 60px; }
+
+  /* ── Header ──────────────────────────────── */
+  .header { text-align: center; padding: 32px 0 24px; }
+  .header h1 {
+    font-size: 2rem; font-weight: 700; letter-spacing: -0.5px;
+    color: var(--near-black); line-height: 1.25;
+  }
+  .header p.sub {
+    font-size: 1.05rem; color: var(--text-secondary); margin-top: 8px;
+    max-width: 560px; margin-left: auto; margin-right: auto;
+  }
+
+  /* ── Ad Banner Top ───────────────────────── */
+  .ad-banner {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-card);
+    padding: 16px 20px;
+    text-align: center;
+    font-size: 0.85rem; color: var(--text-muted);
+    margin-bottom: 24px;
+    min-height: 90px; display: flex; align-items: center; justify-content: center;
+  }
+
+  /* ── Upload Zone ─────────────────────────── */
+  .upload-zone {
+    background: var(--white);
+    border: 2px dashed rgba(0,0,0,0.15);
+    border-radius: var(--radius-card);
+    padding: 40px 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .upload-zone:hover, .upload-zone.drag { border-color: var(--blue); background: var(--blue-light); }
+  .upload-zone .icon { font-size: 2.5rem; margin-bottom: 12px; }
+  .upload-zone .title { font-size: 1.1rem; font-weight: 600; }
+  .upload-zone .hint { font-size: 0.88rem; color: var(--text-secondary); margin-top: 4px; }
+  .upload-formats { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+  .fmt-pill {
+    background: var(--warm-white);
+    color: var(--text-secondary);
+    padding: 4px 12px; border-radius: 9999px;
+    font-size: 0.78rem; font-weight: 500;
+    border: 1px solid var(--border);
+    font-family: 'SF Mono', 'Fira Code', monospace;
+  }
+  .fmt-pill.more { background: transparent; border: none; color: var(--text-muted); }
+  #file-input { display: none; }
+
+  /* ── Format Selection ────────────────────── */
+  .format-select {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-card);
+    padding: 20px 24px;
+    margin-top: 16px;
+  }
+  .format-select h3 {
+    font-size: 0.9rem; font-weight: 600; margin-bottom: 4px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .format-select .desc { font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 14px; }
+  .format-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; }
+  .format-check {
+    display: flex; align-items: center; gap: 8px;
+    padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px;
+    cursor: pointer; font-size: 0.85rem; transition: background 0.15s;
+    user-select: none;
+  }
+  .format-check:hover { background: var(--warm-white); }
+  .format-check input[type="checkbox"] { accent-color: var(--blue); width: 16px; height: 16px; cursor: pointer; }
+  .format-check .ext { font-weight: 600; font-family: 'SF Mono', 'Fira Code', monospace; }
+  .format-check .name { font-size: 0.75rem; color: var(--text-muted); margin-left: auto; }
+  .format-actions { display: flex; gap: 12px; margin-top: 14px; }
+  .btn-sm {
+    font-size: 0.82rem; font-weight: 500; padding: 6px 14px;
+    border-radius: var(--radius-btn); cursor: pointer; transition: background 0.15s;
+    border: 1px solid var(--border); background: var(--white); color: var(--near-black);
+  }
+  .btn-sm:hover { background: var(--warm-white); }
+  .btn-convert {
+    width: 100%; margin-top: 16px; padding: 14px 24px;
+    background: var(--blue); color: var(--white); font-size: 1rem; font-weight: 600;
+    border: none; border-radius: var(--radius-btn); cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .btn-convert:hover { background: var(--blue-hover); }
+  .btn-convert:active { transform: scale(0.98); }
+  .btn-convert:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  /* ── Progress ────────────────────────────── */
+  .progress {
+    background: var(--white); border: 1px solid var(--border);
+    border-radius: var(--radius-card); padding: 24px; margin-top: 16px;
+    display: none;
+  }
+  .progress.active { display: block; }
+  .progress-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+  .spinner {
+    width: 22px; height: 22px; border: 2.5px solid var(--border);
+    border-top-color: var(--blue); border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .progress-text { font-weight: 600; font-size: 0.95rem; }
+  .progress-sub { font-size: 0.82rem; color: var(--text-secondary); }
+  .progress-bar {
+    height: 4px; background: var(--warm-white); border-radius: 2px; overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%; background: var(--blue); border-radius: 2px;
+    width: 0%; transition: width 0.3s;
+  }
+
+  /* ── Result ──────────────────────────────── */
+  .result {
+    background: var(--white); border: 1px solid var(--border);
+    border-radius: var(--radius-card); padding: 28px; margin-top: 16px;
+    display: none; box-shadow: var(--shadow-card);
+  }
+  .result.active { display: block; }
+  .result-success {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 1.1rem; font-weight: 600; margin-bottom: 20px;
+  }
+  .check-icon {
+    width: 26px; height: 26px; background: var(--green); color: var(--white);
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-size: 0.85rem; flex-shrink: 0;
+  }
+  .result-stats {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 8px; margin-bottom: 18px;
+  }
+  .stat {
+    background: var(--warm-white); border-radius: 8px; padding: 12px 14px;
+  }
+  .stat-label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-value { font-size: 1rem; font-weight: 600; margin-top: 1px; }
+  .format-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+  .format-tag {
+    background: var(--gold-light); color: var(--gold);
+    border: 1px solid rgba(184,134,11,0.2);
+    padding: 3px 10px; border-radius: 9999px;
+    font-size: 0.78rem; font-weight: 600;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+  }
+  .origin-tag {
+    background: #e8f5e9; color: #2e7d32;
+    border: 1px solid rgba(46,125,50,0.2);
+  }
+  .timer-box {
+    display: flex; align-items: center; gap: 8px;
+    padding: 10px 14px; background: #fff5f5;
+    border: 1px solid rgba(221,52,52,0.15); border-radius: 8px;
+    margin-bottom: 16px; font-size: 0.85rem; color: var(--text-secondary);
+  }
+  .timer-countdown { color: var(--red); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .btn-download {
+    display: inline-flex; align-items: center; gap: 8px;
+    width: 100%; justify-content: center;
+    padding: 14px 24px; background: var(--blue); color: var(--white);
+    border: none; border-radius: var(--radius-btn);
+    font-size: 1rem; font-weight: 600; cursor: pointer;
+    text-decoration: none; transition: background 0.2s;
+  }
+  .btn-download:hover { background: var(--blue-hover); }
+  .btn-reset {
+    display: block; width: 100%; margin-top: 10px; padding: 10px;
+    background: transparent; color: var(--text-secondary);
+    border: 1px solid var(--border); border-radius: var(--radius-btn);
+    font-size: 0.88rem; cursor: pointer; transition: background 0.15s;
+  }
+  .btn-reset:hover { background: var(--warm-white); }
+
+  /* ── Error ───────────────────────────────── */
+  .error-banner {
+    background: #fff5f5; border: 1px solid rgba(221,52,52,0.2);
+    color: var(--red); padding: 12px 16px; border-radius: 8px;
+    font-size: 0.9rem; margin-top: 12px; display: none;
+  }
+  .error-banner.active { display: block; }
+
+  /* ── Features ────────────────────────────── */
+  .features { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 40px; }
+  .feature {
+    text-align: center; padding: 20px 14px;
+    background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-card);
+    transition: box-shadow 0.2s;
+  }
+  .feature:hover { box-shadow: var(--shadow-card); }
+  .feature .ficon { font-size: 1.6rem; margin-bottom: 8px; }
+  .feature .ftitle { font-size: 0.88rem; font-weight: 600; margin-bottom: 2px; }
+  .feature .fdesc { font-size: 0.78rem; color: var(--text-secondary); }
+
+  /* ── FAQ / Content Section (SEO) ─────────── */
+  .content-section { margin-top: 48px; }
+  .content-section h2 {
+    font-size: 1.4rem; font-weight: 700; letter-spacing: -0.3px;
+    margin-bottom: 8px;
+  }
+  .content-section p { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 14px; }
+  .faq-item { margin-bottom: 20px; }
+  .faq-item h3 { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+  .faq-item p { font-size: 0.9rem; color: var(--text-secondary); }
+
+  /* ── Ad Sidebar (inline for mobile) ─────── */
+  .ad-sidebar {
+    background: var(--warm-white); border: 1px solid var(--border);
+    border-radius: var(--radius-card); padding: 20px;
+    text-align: center; font-size: 0.85rem; color: var(--text-muted);
+    margin-top: 24px; min-height: 250px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  /* ── Footer ──────────────────────────────── */
+  .footer {
+    text-align: center; padding: 32px 0 0;
+    font-size: 0.82rem; color: var(--text-muted);
+    border-top: 1px solid var(--border); margin-top: 48px;
+  }
+  .footer a { color: var(--blue); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  /* ── Responsive ──────────────────────────── */
+  @media (max-width: 640px) {
+    .page { padding: 20px 14px 40px; }
+    .header h1 { font-size: 1.5rem; }
+    .features { grid-template-columns: 1fr; }
+    .result-stats { grid-template-columns: 1fr; }
+    .format-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <!-- Header -->
+  <header class="header">
+    <h1>Free Embroidery File Converter</h1>
+    <p class="sub">Upload one file — get all the formats you need. No signup, no hassle. Files deleted after 10 minutes.</p>
+  </header>
+
+  <!-- Ad Banner Top -->
+  <div class="ad-banner" id="ad-top">
+    <!-- Google AdSense / ad slot -->
+    📢 Advertisement
+  </div>
+
+  <!-- Upload Zone -->
+  <div class="upload-zone" id="upload-zone" onclick="document.getElementById('file-input').click()">
+    <input type="file" id="file-input" accept=".dst,.pes,.jef,.exp,.pec,.vp3,.xxx,.u01,.tbf,.hus,.sew,.pcs,.csd,.emb,.10o,.100,.bro,.col,.csv,.dat,.dsb,.dsz,.edr,.emd,.exy,.fxy,.gcode,.gt,.inb,.inf,.jpx,.ksm,.max,.mit,.new,.pcd,.pcm,.pcq,.phb,.phc,.pmv,.shv,.spx,.stc,.stx,.tap,.tbf,.zxy,.zhs">
+    <div class="icon">🧵</div>
+    <div class="title">Drop your embroidery file here</div>
+    <div class="hint">or click to browse — 47+ input formats supported</div>
+    <div class="upload-formats" id="format-pills"></div>
+  </div>
+
+  <!-- Error -->
+  <div class="error-banner" id="error"></div>
+
+  <!-- Format Selection -->
+  <div class="format-select" id="format-select" style="display:none;">
+    <h3>
+      <span>Choose output formats</span>
+      <span style="font-size:0.75rem;font-weight:400;color:var(--text-muted);">(selected: <strong id="selected-count">9</strong>)</span>
+    </h3>
+    <p class="desc">Pick which formats to include in your ZIP. The original file is always included.</p>
+    <div class="format-grid" id="format-grid"></div>
+    <div class="format-actions">
+      <button class="btn-sm" onclick="selectAll()">Select all</button>
+      <button class="btn-sm" onclick="selectRecommended()">Recommended (9)</button>
+      <button class="btn-sm" onclick="selectNone()">Clear</button>
+    </div>
+    <button class="btn-convert" id="btn-convert" onclick="startConvert()">
+      Convert to <span id="btn-count">9</span> format(s)
+    </button>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress" id="progress">
+    <div class="progress-header">
+      <div class="spinner"></div>
+      <div>
+        <div class="progress-text" id="prog-text">Converting...</div>
+        <div class="progress-sub" id="prog-sub"></div>
+      </div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="prog-bar"></div></div>
+  </div>
+
+  <!-- Result -->
+  <div class="result" id="result">
+    <div class="result-success">
+      <div class="check-icon">✓</div>
+      Ready to download
+    </div>
+    <div class="result-stats">
+      <div class="stat"><div class="stat-label">Input</div><div class="stat-value" id="stat-input">—</div></div>
+      <div class="stat"><div class="stat-label">Stitches</div><div class="stat-value" id="stat-stitches">—</div></div>
+      <div class="stat"><div class="stat-label">Files in ZIP</div><div class="stat-value" id="stat-count">—</div></div>
+      <div class="stat"><div class="stat-label">Size</div><div class="stat-value" id="stat-size">—</div></div>
+    </div>
+    <div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:6px;">Included formats:</div>
+    <div class="format-tags" id="result-tags"></div>
+    <div class="timer-box">
+      <span>⏳</span> Link expires in <span class="timer-countdown" id="countdown">10:00</span>
+    </div>
+    <a class="btn-download" id="btn-download" href="#" download>
+      Download ZIP
+    </a>
+    <button class="btn-reset" onclick="resetAll()">Convert another file</button>
+  </div>
+
+  <!-- Ad Sidebar -->
+  <div class="ad-sidebar" id="ad-sidebar">
+    📢 Advertisement
+  </div>
+
+  <!-- Features -->
+  <div class="features">
+    <div class="feature">
+      <div class="ficon">🔌</div>
+      <div class="ftitle">47+ Input Formats</div>
+      <div class="fdesc">DST, PES, JEF, EXP, PEC, VP3, HUS, SEW and many more. We read almost everything.</div>
+    </div>
+    <div class="feature">
+      <div class="ficon">📦</div>
+      <div class="ftitle">Batch Convert</div>
+      <div class="fdesc">Pick which formats you need. Get them all in one ZIP. Original file included.</div>
+    </div>
+    <div class="feature">
+      <div class="ficon">🔒</div>
+      <div class="ftitle">Auto-delete</div>
+      <div class="fdesc">Files are removed after 10 minutes. We don't keep your designs. No storage, no logs.</div>
+    </div>
+  </div>
+
+  <!-- SEO Content -->
+  <section class="content-section">
+    <h2>Convert Embroidery Files Online — Free</h2>
+    <p>
+      If you work with embroidery machines, you know the pain: every brand uses a different format.
+      Tajima takes <strong>DST</strong>. Brother goes with <strong>PES</strong>. Janome wants <strong>JEF</strong>.
+      Melco needs <strong>EXP</strong>. Exporting each one by hand is slow and tedious.
+    </p>
+    <p>
+      This tool reads your source file — whatever format it's in — and gives you a ZIP with every
+      format you ticked. The original file comes along too. No account, no email, no waiting.
+      We delete everything after 10 minutes so your designs stay yours.
+    </p>
+
+    <div class="faq-item">
+      <h3>What formats can I convert?</h3>
+      <p>We read 47 embroidery formats and write 19. The most common: DST (Tajima), PES (Brother), JEF (Janome), EXP (Melco), PEC (Brother), VP3 (Pfaff/Husqvarna), XXX (Singer), U01 (Barudan), TBF (Tajima Binary). If your file has stitches in it, we can probably read it.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Which format does my machine use?</h3>
+      <p><strong>Tajima / Barudan / Happy</strong> → DST. <strong>Brother / Babylock</strong> → PES. <strong>Janome / Elna</strong> → JEF. <strong>Melco / Bravo</strong> → EXP. <strong>Pfaff / Husqvarna Viking</strong> → VP3. <strong>Singer / Compucon</strong> → XXX. Check your machine manual to be sure.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is it really free?</h3>
+      <p>Yes. The site runs on ads. Upload, convert, download — no hidden costs, no premium tiers. If it saves you time, tell another embroiderer about it.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><strong>EmbroideryConvert</strong> — Free online embroidery file converter.</p>
+    <p style="margin-top:4px;">DST · PES · JEF · EXP · PEC · VP3 · XXX · U01 · TBF and 40+ more formats.</p>
+    <p style="margin-top:8px;"><a href="/">Home</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></p>
+  </footer>
+</div>
+
+<script>
+  // ═══════════════════════════════════════════
+  // APP
+  // ═══════════════════════════════════════════
+  const API = '';
+  const RECOMMENDED = ['dst','pes','jef','exp','pec','vp3','xxx','u01','tbf'];
+  let allFormats = [];
+  let selectedFile = null;
+  let countdownTimer = null;
+
+  // ── Init: Load formats ─────────────────────
+  async function init() {
+    try {
+      const r = await fetch(API + '/api/formats');
+      const data = await r.json();
+      allFormats = data.formats;
+      renderFormatPills();
+      renderFormatGrid();
+    } catch(e) { console.warn('Formats load failed, using defaults', e); }
+  }
+
+  function renderFormatPills() {
+    const container = document.getElementById('format-pills');
+    const fmts = allFormats.length > 0 ? allFormats.slice(0, 9) : 
+      RECOMMENDED.map(e => ({extension:e,name:e.toUpperCase()}));
+    container.innerHTML = fmts.map(f => 
+      `<span class="fmt-pill">${f.name}</span>`
+    ).join('') + '<span class="fmt-pill more">+ more</span>';
+  }
+
+  function renderFormatGrid() {
+    const grid = document.getElementById('format-grid');
+    const fmts = allFormats.length > 0 ? allFormats : 
+      RECOMMENDED.map(e => ({extension:e, name:e.toUpperCase(), description:''}));
+    grid.innerHTML = fmts.map(f => {
+      const checked = RECOMMENDED.includes(f.extension);
+      return `<label class="format-check">
+        <input type="checkbox" value="${f.extension}" ${checked ? 'checked' : ''} onchange="updateCount()">
+        <span class="ext">.${f.name}</span>
+        <span class="name">${f.description.split(' ').slice(0,2).join(' ')}</span>
+      </label>`;
+    }).join('');
+    updateCount();
+  }
+
+  function updateCount() {
+    const checked = document.querySelectorAll('#format-grid input:checked');
+    const count = checked.length;
+    document.getElementById('selected-count').textContent = count;
+    document.getElementById('btn-count').textContent = count;
+    document.getElementById('btn-convert').disabled = count === 0;
+  }
+
+  function selectAll() {
+    document.querySelectorAll('#format-grid input').forEach(c => c.checked = true);
+    updateCount();
+  }
+  function selectNone() {
+    document.querySelectorAll('#format-grid input').forEach(c => c.checked = false);
+    updateCount();
+  }
+  function selectRecommended() {
+    document.querySelectorAll('#format-grid input').forEach(c => {
+      c.checked = RECOMMENDED.includes(c.value);
+    });
+    updateCount();
+  }
+  function getSelectedFormats() {
+    return [...document.querySelectorAll('#format-grid input:checked')].map(c => c.value);
+  }
+
+  // ── Drag & Drop ───────────────────────────
+  const uploadZone = document.getElementById('upload-zone');
+  const fileInput = document.getElementById('file-input');
+
+  uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('drag'); });
+  uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('drag'));
+  uploadZone.addEventListener('drop', e => {
+    e.preventDefault(); uploadZone.classList.remove('drag');
+    if (e.dataTransfer.files.length) selectFile(e.dataTransfer.files[0]);
+  });
+  fileInput.addEventListener('change', () => {
+    if (fileInput.files.length) selectFile(fileInput.files[0]);
+  });
+
+  function selectFile(file) {
+    selectedFile = file;
+    document.getElementById('format-select').style.display = 'block';
+    document.getElementById('format-select').scrollIntoView({behavior:'smooth'});
+    // Update label
+    uploadZone.querySelector('.title').textContent = file.name;
+    uploadZone.querySelector('.hint').textContent = formatBytes(file.size);
+  }
+
+  // ── Convert ───────────────────────────────
+  async function startConvert() {
+    if (!selectedFile) return;
+    const formats = getSelectedFormats();
+    if (formats.length === 0) return;
+
+    hideError(); hideResult();
+    const prog = document.getElementById('progress');
+    prog.classList.add('active');
+    document.getElementById('prog-text').textContent = 'Reading file...';
+    document.getElementById('prog-sub').textContent = selectedFile.name;
+    document.getElementById('prog-bar').style.width = '20%';
+
+    const fd = new FormData();
+    fd.append('file', selectedFile);
+    fd.append('formats', formats.join(','));
+
+    try {
+      document.getElementById('prog-text').textContent = 'Converting...';
+      document.getElementById('prog-bar').style.width = '55%';
+      const r = await fetch(API + '/api/convert', { method: 'POST', body: fd });
+      document.getElementById('prog-bar').style.width = '90%';
+      if (!r.ok) { const e = await r.json(); throw new Error(e.detail || 'Conversion failed'); }
+      const data = await r.json();
+      document.getElementById('prog-bar').style.width = '100%';
+      await sleep(300);
+      prog.classList.remove('active');
+      showResult(data, formats.length + 1); // +1 for original
+    } catch(err) {
+      prog.classList.remove('active');
+      showError(err.message);
+    }
+  }
+
+  // ── Show Result ───────────────────────────
+  function showResult(data, totalFiles) {
+    document.getElementById('stat-input').textContent = data.input_format;
+    document.getElementById('stat-stitches').textContent = data.stitch_count.toLocaleString();
+    document.getElementById('stat-count').textContent = totalFiles;
+    document.getElementById('stat-size').textContent = formatBytes(data.zip_size_bytes);
+
+    const tags = document.getElementById('result-tags');
+    let html = '<span class="format-tag origin-tag">📄 .' + data.input_format + ' (original)</span>';
+    data.output_formats.forEach(f => {
+      html += `<span class="format-tag">.${f}</span>`;
+    });
+    tags.innerHTML = html;
+
+    document.getElementById('btn-download').href = API + data.download_url;
+    document.getElementById('btn-download').download = data.filename;
+
+    const expiresAt = new Date(data.expires_at);
+    startCountdown(expiresAt);
+
+    document.getElementById('result').classList.add('active');
+    document.getElementById('result').scrollIntoView({behavior:'smooth',block:'center'});
+  }
+
+  function startCountdown(expiresAt) {
+    clearInterval(countdownTimer);
+    const el = document.getElementById('countdown');
+    function tick() {
+      const diff = Math.max(0, Math.floor((expiresAt - new Date()) / 1000));
+      const m = Math.floor(diff/60), s = diff%60;
+      el.textContent = `${m}:${String(s).padStart(2,'0')}`;
+      if (diff <= 60) el.style.color = 'var(--red)';
+      if (diff <= 0) {
+        clearInterval(countdownTimer);
+        el.textContent = 'Expired';
+        const btn = document.getElementById('btn-download');
+        btn.style.opacity = '0.5'; btn.style.pointerEvents = 'none'; btn.textContent = 'Link expired';
+      }
+    }
+    tick();
+    countdownTimer = setInterval(tick, 1000);
+  }
+
+  // ── Helpers ───────────────────────────────
+  function hideResult() { document.getElementById('result').classList.remove('active'); clearInterval(countdownTimer); }
+  function hideError() { document.getElementById('error').classList.remove('active'); }
+  function showError(msg) {
+    const el = document.getElementById('error');
+    el.textContent = msg; el.classList.add('active');
+    el.scrollIntoView({behavior:'smooth'});
+  }
+  function resetAll() {
+    hideResult(); hideError();
+    document.getElementById('progress').classList.remove('active');
+    document.getElementById('format-select').style.display = 'none';
+    selectedFile = null; fileInput.value = '';
+    uploadZone.querySelector('.title').textContent = 'Drop your embroidery file here';
+    uploadZone.querySelector('.hint').textContent = 'or click to browse — 47+ input formats supported';
+    clearInterval(countdownTimer);
+  }
+  function formatBytes(b) {
+    if (b < 1024) return b + ' B';
+    if (b < 1048576) return (b/1024).toFixed(1) + ' KB';
+    return (b/1048576).toFixed(1) + ' MB';
+  }
+  function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+  // ── Start ─────────────────────────────────
+  init();
+</script>
+
+</body>
+</html>
