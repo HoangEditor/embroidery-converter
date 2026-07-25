@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Janome JEF Format: Everything You Need to Know About JEF Embroidery Files</title>
+<meta name="description" content="Complete guide to the JEF embroidery format used by Janome and Elna machines. Learn JEF structure, compatibility, and how to convert JEF files.">
+<meta name="keywords" content="embroidery file converter, convert embroidery files, janome, jef, format, guide">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://embroidery-file-converter.onrender.com/blog/janome-jef-format-guide.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Janome JEF Format: Everything You Need to Know About JEF Embroidery Files">
+<meta property="og:description" content="Complete guide to the JEF embroidery format used by Janome and Elna machines. Learn JEF structure, compatibility, and how to convert JEF files.">
+<meta property="og:url" content="https://embroidery-file-converter.onrender.com/blog/janome-jef-format-guide.html">
+<meta property="og:site_name" content="EmbroideryConvert">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Janome JEF Format: Everything You Need to Know About JEF Embroidery Files">
+<meta name="twitter:description" content="Complete guide to the JEF embroidery format used by Janome and Elna machines. Learn JEF structure, compatibility, and how to convert JEF files.">
+<link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f9fa;--card:#fff;--border:#e5e7eb;--text:#1a1a2e;--text2:#6b7280;--accent:#6366f1;--radius:14px}
+[data-theme="dark"]{--bg:#0b0d14;--card:#151822;--border:#252940;--text:#e8eaed;--text2:#8b8fa7;--accent:#818cf8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased;transition:background .4s,color .4s}
+.container{max-width:760px;margin:0 auto;padding:60px 20px 80px}
+h1{font-size:2.2rem;font-weight:800;letter-spacing:-.5px;margin-bottom:8px;background:linear-gradient(135deg,var(--text)30%,var(--accent)70%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.date{color:var(--text2);font-size:.85rem;margin-bottom:32px}
+h2{font-size:1.4rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.3px}
+h3{font-size:1.1rem;font-weight:600;margin:24px 0 8px}
+p{color:var(--text2);margin-bottom:16px;font-size:.95rem}
+ul,ol{color:var(--text2);margin:12px 0 16px 24px;font-size:.95rem}
+li{margin-bottom:6px}
+strong{color:var(--text)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin:24px 0;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+code{background:var(--border);padding:2px 8px;border-radius:4px;font-family:monospace;font-size:.88rem}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--accent);text-decoration:none;font-weight:500;margin-top:40px}
+.back:hover{text-decoration:underline}
+.nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:48px}
+.nav a{color:var(--accent);text-decoration:none;font-size:.88rem}
+.nav a:hover{text-decoration:underline}
+footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.82rem;border-top:1px solid var(--border);margin-top:48px}
+footer a{color:var(--accent);text-decoration:none}
+.theme-toggle{position:fixed;top:20px;right:20px;z-index:99;width:44px;height:44px;border-radius:50%;border:1px solid var(--border);background:var(--card);cursor:pointer;font-size:1.2rem;display:flex;align-items:center;justify-content:center}
+@media(max-width:640px){.container{padding:30px 14px 60px}h1{font-size:1.6rem}}
+</style>
+</head>
+<body data-theme="light">
+<button class="theme-toggle" onclick="toggleTheme()" id="tb">&#9790;</button>
+<div class="container">
+<div class="nav"><a href="https://embroidery-file-converter.onrender.com/">&#8592; Home</a> <a href="https://embroidery-file-converter.onrender.com/blog">&#8592; All Guides</a></div>
+<h1>Janome JEF Format: Everything You Need to Know About JEF Embroidery Files</h1>
+<div class="date">Published July 2025 &mdash; EmbroideryConvert Team</div>
+
+<p><strong>JEF</strong> is the native embroidery format for <strong>Janome</strong> and <strong>Elna</strong> machines. If you own a Janome Memory Craft, an Elna eXpressive, or a compatible model, your machine reads JEF files. This guide explains everything about the JEF format.</p>
+
+<h2>What Makes JEF Special?</h2>
+<p>Unlike DST (stitch-only), JEF is a <strong>rich format</strong> that stores:</p>
+<ul>
+  <li><strong>Stitch data</strong> with precise coordinates</li>
+  <li><strong>Thread color information</strong> (Janome color codes)</li>
+  <li><strong>Hoop size</strong> and design dimensions</li>
+  <li><strong>Design name</strong> and metadata</li>
+</ul>
+
+<div class="card">
+<h3>JEF Quick Facts</h3>
+<ul>
+  <li><strong>Extension:</strong> .jef</li>
+  <li><strong>Used by:</strong> Janome, Elna (and some Kenmore models)</li>
+  <li><strong>Contains colors:</strong> Yes</li>
+  <li><strong>File structure:</strong> Header + stitch data + color table</li>
+  <li><strong>Max stitches:</strong> ~500,000 (machine-dependent)</li>
+</ul>
+</div>
+
+<h2>Which Machines Use JEF?</h2>
+<ul>
+  <li><strong>Janome Memory Craft</strong> — 400E, 500E, 550E, 9900, 12000, 15000, CM17</li>
+  <li><strong>Janome Skyline</strong> — S7, S9</li>
+  <li><strong>Janome Horizon</strong> — MC8900, MC9400, MC9450</li>
+  <li><strong>Elna eXpressive</strong> — 820, 830, 850, 860, 920</li>
+  <li><strong>Elna Excellence</strong> — 720, 730 Pro</li>
+  <li><strong>Kenmore</strong> — select models manufactured by Janome</li>
+</ul>
+
+<h2>Converting JEF to Other Formats</h2>
+
+<h3>JEF to DST</h3>
+<p>Colors are lost, but stitches are preserved exactly. DST is the most universal format — if you're sending a design to a commercial embroiderer, DST is your safest bet. <a href="https://embroidery-file-converter.onrender.com" style="color:var(--accent)">Convert JEF to DST for free</a>.</p>
+
+<h3>JEF to PES</h3>
+<p>Both JEF and PES store colors, so the converter maps Janome colors to Brother's palette. The colors will be close approximations, not exact matches. For precision, check the color chart on your machine after importing.</p>
+
+<h3>JEF to EXP</h3>
+<p>Stitch data transfers clean. Colors are lost (EXP is stitch-only like DST).</p>
+
+<h2>Common JEF Issues and Solutions</h2>
+
+<h3>"My Janome won't read the JEF file"</h3>
+<p>Check the <strong>hoop size</strong> — if the design is larger than your machine's maximum hoop (e.g., 5x7 on a machine that only supports 4x4), it won't load. Also ensure the file name doesn't contain special characters — Janome machines prefer simple names like <code>FLOWERS.JEF</code>.</p>
+
+<h3>"The colors look wrong"</h3>
+<p>JEF stores <strong>Janome color codes</strong>, not actual RGB values. Your machine maps these codes to its built-in palette. If you substitute threads (using DMC instead of Janome thread, for example), colors will differ. Use our <a href="https://embroidery-floss-matcher.onrender.com" style="color:var(--accent)">floss color matcher</a> to find equivalents.</p>
+
+<h3>"USB not recognized"</h3>
+<p>Format your USB drive as <strong>FAT32</strong>. Some Janome models are picky about USB brands — try a different drive if one doesn't work. Keep the JEF file in the root directory, not in folders.</p>
+
+<h2>Free JEF Resources</h2>
+<ul>
+  <li><strong>EmbroideryConvert</strong> — <a href="https://embroidery-file-converter.onrender.com" style="color:var(--accent)">free online converter</a> — upload JEF, get DST/PES/EXP and more</li>
+  <li><strong>Janome Artistic Digitizer</strong> — paid, but has a free trial</li>
+  <li><strong>Wilcom TrueSizer</strong> — free JEF viewer (Windows only)</li>
+</ul>
+
+<p><strong>Need to convert your JEF file?</strong> <a href="https://embroidery-file-converter.onrender.com" style="color:var(--accent)">Try our free converter now</a> — no signup, files deleted after 10 minutes.</p>
+
+<footer>
+  <p><strong>EmbroideryConvert</strong> &mdash; Free online embroidery file converter. <a href="https://embroidery-file-converter.onrender.com/blog">Read all guides</a>.</p>
+  <p style="margin-top:8px"><a href="https://embroidery-file-converter.onrender.com/">Home</a> &middot; <a href="https://embroidery-file-converter.onrender.com/blog">Blog</a> &middot; <a href="https://embroidery-floss-matcher.onrender.com">Floss Color Matcher</a></p>
+</footer>
+</div>
+<script>
+function toggleTheme(){var h=document.documentElement,b=document.getElementById('tb');if(h.getAttribute('data-theme')==='light'){h.setAttribute('data-theme','dark');b.innerHTML='&#9788;';localStorage.setItem('blog-theme','dark')}else{h.setAttribute('data-theme','light');b.innerHTML='&#9790;';localStorage.setItem('blog-theme','light')}}
+(function(){var t=localStorage.getItem('blog-theme')||'light';document.documentElement.setAttribute('data-theme',t);document.getElementById('tb').innerHTML=t==='dark'?'&#9788;':'&#9790;'})();
+</script>
+</body>
+</html>
