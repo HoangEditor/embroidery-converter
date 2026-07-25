@@ -244,6 +244,13 @@ async def sitemap():
         return Response(content=path.read_text(), media_type="application/xml")
     return Response(status_code=404)
 
+@app.get("/about", response_class=HTMLResponse)
+async def about():
+    path = STATIC_DIR / "about.html"
+    if path.exists():
+        return path.read_text(encoding="utf-8")
+    raise HTTPException(404)
+
 
 @app.get("/robots.txt")
 async def robots():

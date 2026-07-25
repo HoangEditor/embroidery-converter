@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About EmbroideryConvert — Free Embroidery Tools</title>
+<meta name="description" content="About EmbroideryConvert. Free embroidery file converter — 47+ formats supported. Built by embroiderers for embroiderers. Learn about our mission, team, and commitment to the embroidery community.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://embroidery-file-converter.onrender.com/about">
+<link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f9fa;--card:#fff;--border:#e5e7eb;--text:#1a1a2e;--t2:#6b7280;--a:#6366f1;--r:14px}
+[data-theme="dark"]{--bg:#0b0d14;--card:#151822;--border:#252940;--text:#e8eaed;--t2:#8b8fa7;--a:#818cf8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;transition:background .4s,color .4s}
+body::before{content:"";position:fixed;inset:0;background:radial-gradient(ellipse 80% 50% at 50% -20%,rgba(99,102,241,.06),transparent),radial-gradient(ellipse 60% 40% at 80% 80%,rgba(168,85,247,.04),transparent);pointer-events:none;z-index:0}
+.c{max-width:760px;margin:0 auto;padding:60px 20px 80px;position:relative;z-index:1}
+h1{font-size:2.2rem;font-weight:800;letter-spacing:-.5px;margin-bottom:16px;background:linear-gradient(135deg,var(--text)30%,var(--a)70%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+h2{font-size:1.3rem;font-weight:700;margin:36px 0 12px}
+p{color:var(--t2);margin-bottom:16px;font-size:.95rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:24px;margin:24px 0;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.nav{display:flex;gap:12px;margin-bottom:32px}
+.nav a{color:var(--a);text-decoration:none;font-weight:500}
+footer{text-align:center;padding:40px 0 20px;color:var(--t2);font-size:.82rem;border-top:1px solid var(--border);margin-top:48px}
+footer a{color:var(--a)}
+.tt{position:fixed;top:20px;right:20px;z-index:99;width:44px;height:44px;border-radius:50%;border:1px solid var(--border);background:var(--card);cursor:pointer;font-size:1.2rem;display:flex;align-items:center;justify-content:center}
+@media(max-width:640px){.c{padding:30px 14px 60px}h1{font-size:1.6rem}}
+</style>
+</head>
+<body data-theme="light">
+<button class="tt" onclick="toggleTheme()" id="tb">&#9790;</button>
+<div class="c">
+<div class="nav"><a href="/">&#8592; Home</a> <a href="/blog">Blog</a></div>
+<h1>About EmbroideryConvert</h1>
+<p>Free embroidery file converter — 47+ formats supported</p>
+
+<div class="card">
+<h2>👋 Our Mission</h2>
+<p>We built EmbroideryConvert to solve real problems that embroiderers face every day. Whether it's converting embroidery files between incompatible machine formats, or matching thread colors across DMC, Anchor, Cosmo, and J&P Coats — our tools exist to save you time and frustration.</p>
+<p>We're embroiderers ourselves. We know the pain of getting a PES file when your machine needs DST. We know the struggle of finding Anchor equivalents when the store only stocks DMC. These tools were born from our own stitching headaches.</p>
+</div>
+
+<div class="card">
+<h2>🪡 What We Offer</h2>
+<p><strong>Embroidery File Converter:</strong> Upload any embroidery file (47+ input formats) and download it converted to 19 output formats — DST, PES, JEF, EXP, VP3, XXX, and more. All in one ZIP. Files auto-deleted after 10 minutes for your privacy.</p>
+<p style="margin-top:12px"><strong>Embroidery Floss Matcher:</strong> Search across 456 DMC colors with hex codes, and instantly find equivalents in Anchor, Cosmo, and J&P Coats. 449 Cosmo matches, 107 Anchor equivalents.</p>
+<p style="margin-top:12px"><strong>Blog:</strong> 68 free embroidery guides and tutorials — written by stitchers, for stitchers. File format guides, thread comparisons, technique tutorials, and more.</p>
+</div>
+
+<div class="card">
+<h2>🔒 Privacy & Trust</h2>
+<p>We don't require accounts. We don't store your files. We don't track you. Uploaded embroidery files are automatically deleted after 10 minutes. Our tools are free because we believe embroidery resources should be accessible to everyone — from hobbyists to professional digitizers.</p>
+</div>
+
+<div class="card">
+<h2>📬 Contact</h2>
+<p>Have a question, suggestion, or found a bug? We'd love to hear from you. The best way to reach us is through our GitHub repositories where you can open issues or submit feedback.</p>
+<p style="margin-top:8px"><strong>Also try our other tool:</strong> <a href="https://embroidery-floss-matcher.onrender.com" style="color:var(--a)">Embroidery Floss Matcher</a></p>
+</div>
+
+<footer>
+<p><strong>EmbroideryConvert</strong> &mdash; Free embroidery file converter — 47+ formats supported</p>
+<p style="margin-top:8px"><a href="/">Home</a> &middot; <a href="/blog">Blog</a> &middot; <a href="/about">About</a></p>
+</footer>
+</div>
+<script>
+function toggleTheme(){var h=document.documentElement,b=document.getElementById('tb');if(h.getAttribute('data-theme')==='light'){h.setAttribute('data-theme','dark');b.innerHTML='&#9788;';localStorage.setItem('bt','dark')}else{h.setAttribute('data-theme','light');b.innerHTML='&#9790;';localStorage.setItem('bt','light')}}
+(function(){var t=localStorage.getItem('bt')||'light';document.documentElement.setAttribute('data-theme',t);document.getElementById('tb').innerHTML=t==='dark'?'&#9788;':'&#9790;'})();
+</script>
+</body>
+</html>
