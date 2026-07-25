@@ -256,6 +256,8 @@ async def robots():
 
 @app.get("/blog/{slug}")
 async def blog_post(slug: str):
+    if slug.endswith(".html"):
+        slug = slug[:-5]
     path = STATIC_DIR / "blog" / f"{slug}.html"
     if path.exists():
         return HTMLResponse(path.read_text(encoding="utf-8"))
