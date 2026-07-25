@@ -1,0 +1,13 @@
+app:
+  name: embroidery-converter
+  type: web
+  region: was
+  plan: free
+services:
+  web:
+    type: web
+    port: 8000
+    route: /
+    env:
+      - name: PYTHONUNBUFFERED
+        value: "1"
