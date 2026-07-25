@@ -2,451 +2,1051 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://embroidery-file-converter.onrender.com/</loc>
-    <lastmod>2025-07-25</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog</loc>
-    <lastmod>2025-07-25</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/page2</loc>
-    <lastmod>2025-07-25</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/page3</loc>
-    <lastmod>2025-07-25</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/page4</loc>
-    <lastmod>2025-07-25</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/backstitch-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/batch-convert-embroidery-files</loc>
-    <lastmod>2025-04-01</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/beading-embroidery-tutorial</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/best-embroidery-facebook-groups</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/best-embroidery-hashtags</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/best-embroidery-machines-2025</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/best-free-embroidery-software</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/blackwork-embroidery-patterns</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/blanket-stitch-tutorial</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/brother-pes-format-guide</loc>
-    <lastmod>2025-04-03</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/bullion-stitch-roses</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/carbon-paper-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/chain-stitch-variations</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/common-embroidery-file-errors</loc>
-    <lastmod>2025-04-08</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/convert-10o-to-dst</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/convert-bro-to-pes</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-csv-to-pes</loc>
-    <lastmod>2025-04-07</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-dst-to-exp</loc>
-    <lastmod>2025-04-11</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-dst-to-jef</loc>
-    <lastmod>2025-04-11</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-dst-to-pes-free</loc>
-    <lastmod>2025-04-12</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-emb-to-pes</loc>
-    <lastmod>2025-04-14</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-exp-to-dst</loc>
-    <lastmod>2025-04-15</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-jef-to-pes-free</loc>
-    <lastmod>2025-04-18</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-jef-to-vp3</loc>
-    <lastmod>2025-04-19</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-pcs-to-pes</loc>
-    <lastmod>2025-04-24</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-pec-to-pes</loc>
-    <lastmod>2025-04-22</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-pes-to-exp</loc>
-    <lastmod>2025-04-25</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-pes-to-jef-free</loc>
-    <lastmod>2025-04-26</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-pes-to-vp3</loc>
-    <lastmod>2025-04-26</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-pes-to-xxx</loc>
-    <lastmod>2025-04-30</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-pmv-to-pes</loc>
-    <lastmod>2025-05-04</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-shv-to-dst</loc>
-    <lastmod>2025-05-01</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-tbf-to-dst</loc>
-    <lastmod>2025-05-04</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-u01-to-dst</loc>
-    <lastmod>2025-05-08</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-vp3-to-pes</loc>
-    <lastmod>2025-05-06</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/convert-xxx-to-dst</loc>
-    <lastmod>2025-05-09</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/couching-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/counted-thread-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/crewel-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/custom-embroidery-business-guide</loc>
-    <lastmod>2025-05-14</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-abstract-design</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-animal-designs</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-anniversary-gift</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-bird-designs</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-birthday-gifts</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-block-fonts</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-blogging-tips</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-book-themed</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-business-marketing</loc>
-    <lastmod>2025-05-13</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-business-software</loc>
-    <lastmod>2025-05-15</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-butterfly-patterns</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-cap-digitizing-tips</loc>
-    <lastmod>2025-05-18</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-carry-case</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-christmas-ornaments</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-coffee-themed</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-cursive-fonts</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-design-ownership</loc>
-    <lastmod>2025-05-18</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-design-placement-guide</loc>
-    <lastmod>2025-05-22</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-design-transfer</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-digitizing-pricing</loc>
-    <lastmod>2025-05-19</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-digitizing-vs-converting</loc>
-    <lastmod>2025-05-24</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-discord-servers</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-easter-projects</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-family-portrait</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-file-backup-strategy</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-file-extension-list</loc>
-    <lastmod>2025-05-27</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-file-formats-guide</loc>
-    <lastmod>2025-05-26</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-file-size-too-large</loc>
-    <lastmod>2025-05-29</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-floral-patterns</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-floss-quality-test</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-for-beginners</loc>
-    <lastmod>2025-05-29</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-garden-themed</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-geometric-patterns</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-gift-ideas-holiday</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-gift-packaging</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-graduation-gift</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-halloween-designs</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-hoop-material-guide</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-hoop-size-guide</loc>
-    <lastmod>2025-06-02</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-hooping-guide</loc>
-    <lastmod>2025-06-04</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-housewarming-gift</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-instagram-growth</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-jacket-back-guide</loc>
-    <lastmod>2025-06-05</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-kids-fonts</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-kitchen-themed</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-landscape-design</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-lap-stand</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-machine-compatibility-guide</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-magnifier-lamp</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-mandala-patterns</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-metallic-thread-guide</loc>
-    <lastmod>2025-06-08</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-modern-fonts</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-monogram-guide</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-music-themed</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-name-designs</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-needle-guide</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-needle-size-chart</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-nursery-decor</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-ocean-themed</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-patch-guide</loc>
-    <lastmod>2025-06-13</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-pet-portrait</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-pinterest-traffic</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-pricing-guide</loc>
-    <lastmod>2025-06-15</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-puff-foam-guide</loc>
-    <lastmod>2025-06-17</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-quote-designs</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-reddit-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-retirement-gift</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-scissor-recommendations</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-software-comparison</loc>
-    <lastmod>2025-06-20</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-software-format-list</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-space-themed</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-sports-fonts</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-stabilizer-guide</loc>
-    <lastmod>2025-06-21</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-stand-floor</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-thanksgiving-designs</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-thread-brand-comparison</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-thread-chart-printable</loc>
-    <lastmod>2025-06-21</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-thread-color-matching-tips</loc>
-    <lastmod>2025-06-27</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-thread-storage-life</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-thread-tension-guide</loc>
-    <lastmod>2025-06-30</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-thread-weight-chart</loc>
-    <lastmod>2025-07-02</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-threader-tool</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-trapunto-technique</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-travel-kit</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-tree-designs</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-troubleshooting-guide</loc>
-    <lastmod>2025-07-03</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-valentines-projects</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-vintage-fonts</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-website-seo-tips</loc>
-    <lastmod>2025-07-03</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-wedding-fonts</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/embroidery-zipped-file-guide</loc>
-    <lastmod>2025-07-04</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/fabric-marking-tools</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/feather-stitch-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/fishbone-stitch-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/fly-stitch-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/free-embroidery-designs-download</loc>
-    <lastmod>2025-07-05</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/free-embroidery-file-converter-no-signup</loc>
-    <lastmod>2025-07-07</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/french-knot-tutorial</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/goldwork-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/hardanger-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/heat-transfer-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/herringbone-stitch-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/hoop-art-display-ideas</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/how-to-convert-pes-to-dst-free</loc>
-    <lastmod>2025-07-12</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/how-to-open-embroidery-files-without-software</loc>
-    <lastmod>2025-07-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/hus-format-guide</loc>
-    <lastmod>2025-07-12</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/janome-jef-format-guide</loc>
-    <lastmod>2025-07-17</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/lazy-daisy-stitch-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/light-box-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/long-short-stitch-shading</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/machine-embroidery-vs-hand-embroidery</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/melco-exp-format-guide</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/needle-painting-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/pes-file-converter-free</loc>
-    <lastmod>2025-07-22</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/prick-pounce-transfer</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/redwork-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/reverse-applique-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/ribbon-embroidery-flowers</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/running-stitch-variations</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/seed-stitch-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/sew-format-guide</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/smocking-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/split-stitch-tutorial</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/stem-stitch-tutorial</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/stumpwork-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/surface-embroidery-stitches</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://embroidery-file-converter.onrender.com/blog/tajima-dst-format-guide</loc>
-    <lastmod>2025-07-23</lastmod>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/tracing-paper-embroidery</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/water-soluble-transfer</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://embroidery-file-converter.onrender.com/blog/whitework-embroidery-guide</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
