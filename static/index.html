@@ -157,7 +157,9 @@
     border-color:var(--accent);background:var(--accent-light);
     box-shadow:0 8px 40px rgba(99,102,241,.15);
   }
-  .upload-zone .icon {font-size:3rem;margin-bottom:14px}
+  .upload-zone .icon {margin-bottom:14px;transition:transform .3s}
+  .upload-zone:hover .icon svg, .upload-zone.drag .icon svg {transform:translateY(-4px);stroke:var(--accent)}
+  .upload-zone .icon svg {transition:all .3s}
   .upload-zone .title {font-size:1.15rem;font-weight:600}
   .upload-zone .hint {font-size:.88rem;color:var(--text2);margin-top:6px}
   .upload-formats {display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:16px}
@@ -344,7 +346,7 @@
   <!-- Upload Zone -->
   <div class="upload-zone" id="upload-zone" onclick="document.getElementById('file-input').click()">
     <input type="file" id="file-input" accept=".dst,.pes,.jef,.exp,.pec,.vp3,.xxx,.u01,.tbf,.hus,.sew,.pcs,.csd,.emb,.10o,.100,.bro,.col,.csv,.dat,.dsb,.dsz,.edr,.emd,.exy,.fxy,.gcode,.gt,.inb,.inf,.jpx,.ksm,.max,.mit,.new,.pcd,.pcm,.pcq,.phb,.phc,.pmv,.shv,.spx,.stc,.stx,.tap,.tbf,.zxy,.zhs">
-    <div class="icon">🧵</div>
+    <div class="icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
     <div class="title">Drop your embroidery file here</div>
     <div class="hint">or click to browse — 47+ input formats supported</div>
     <div class="upload-formats" id="format-pills"></div>
