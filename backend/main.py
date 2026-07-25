@@ -244,6 +244,20 @@ async def sitemap():
         return Response(content=path.read_text(), media_type="application/xml")
     return Response(status_code=404)
 
+@app.get("/privacy", response_class=HTMLResponse)
+async def privacy():
+    path = STATIC_DIR / "privacy.html"
+    if path.exists():
+        return path.read_text(encoding="utf-8")
+    raise HTTPException(404)
+
+@app.get("/terms", response_class=HTMLResponse)
+async def terms():
+    path = STATIC_DIR / "terms.html"
+    if path.exists():
+        return path.read_text(encoding="utf-8")
+    raise HTTPException(404)
+
 @app.get("/about", response_class=HTMLResponse)
 async def about():
     path = STATIC_DIR / "about.html"
