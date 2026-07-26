@@ -68,7 +68,7 @@ footer a{{color:var(--accent);text-decoration:none}}
 footer = f"""
 <footer>
   <p><strong>{SITE_NAME}</strong> &mdash; Free online embroidery file converter. <a href="{SITE_URL}/blog">Read all guides</a>.</p>
-  <p style="margin-top:8px"><a href="{SITE_URL}/">Home</a> &middot; <a href="{SITE_URL}/blog">Blog</a> &middot; <a href="https://embroidery-floss-matcher.onrender.com">Floss Color Matcher</a></p>
+  <p style="margin-top:8px"><a href="{SITE_URL}/">Home</a> &middot; <a href="{SITE_URL}/blog">Blog</a> &middot; <a href="https://match-floss.onrender.com">Floss Color Matcher</a></p>
 </footer>
 </div>
 <script>
@@ -243,7 +243,7 @@ posts = [
 <p>Similar to DST conversion — EXP is stitch-based, colors are lost.</p>
 
 <h2>Why Does My PES File Have Wrong Colors?</h2>
-<p>Brother assigns color names (like "Emerald Green" or "Crimson Red"), but these are <strong>suggestions based on Brother brand thread</strong>. If you use DMC or Madeira thread, the actual stitched color depends on what thread you load — not the file. This is why we always recommend using a <a href="https://embroidery-floss-matcher.onrender.com" style="color:var(--accent)">floss color matcher</a> to find equivalents across brands.</p>
+<p>Brother assigns color names (like "Emerald Green" or "Crimson Red"), but these are <strong>suggestions based on Brother brand thread</strong>. If you use DMC or Madeira thread, the actual stitched color depends on what thread you load — not the file. This is why we always recommend using a <a href="https://match-floss.onrender.com" style="color:var(--accent)">floss color matcher</a> to find equivalents across brands.</p>
 
 <h2>Free Tools for PES Files</h2>
 <p>Besides our online converter, consider these free resources:</p>
@@ -310,7 +310,7 @@ posts = [
 <p>Check the <strong>hoop size</strong> — if the design is larger than your machine's maximum hoop (e.g., 5x7 on a machine that only supports 4x4), it won't load. Also ensure the file name doesn't contain special characters — Janome machines prefer simple names like <code>FLOWERS.JEF</code>.</p>
 
 <h3>"The colors look wrong"</h3>
-<p>JEF stores <strong>Janome color codes</strong>, not actual RGB values. Your machine maps these codes to its built-in palette. If you substitute threads (using DMC instead of Janome thread, for example), colors will differ. Use our <a href="https://embroidery-floss-matcher.onrender.com" style="color:var(--accent)">floss color matcher</a> to find equivalents.</p>
+<p>JEF stores <strong>Janome color codes</strong>, not actual RGB values. Your machine maps these codes to its built-in palette. If you substitute threads (using DMC instead of Janome thread, for example), colors will differ. Use our <a href="https://match-floss.onrender.com" style="color:var(--accent)">floss color matcher</a> to find equivalents.</p>
 
 <h3>"USB not recognized"</h3>
 <p>Format your USB drive as <strong>FAT32</strong>. Some Janome models are picky about USB brands — try a different drive if one doesn't work. Keep the JEF file in the root directory, not in folders.</p>
@@ -611,7 +611,7 @@ posts = [
 </ul>
 
 <h2>6. Embroidery Floss Matcher — Free Color Conversion</h2>
-<p>Not a file tool, but essential companion: our <a href="https://embroidery-floss-matcher.onrender.com" style="color:var(--accent)">free floss color matcher</a> lets you convert thread colors between DMC, Anchor, Cosmo, and J&P Coats — 456 colors with hex codes.</p>
+<p>Not a file tool, but essential companion: our <a href="https://match-floss.onrender.com" style="color:var(--accent)">free floss color matcher</a> lets you convert thread colors between DMC, Anchor, Cosmo, and J&P Coats — 456 colors with hex codes.</p>
 
 <h2>Free vs Paid: When to Upgrade</h2>
 <div class="card">
